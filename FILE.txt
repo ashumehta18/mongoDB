@@ -7,6 +7,12 @@ bson = binary JSON {binary structure encodes type and and length info, which all
 
 
 {lec 2}
+to start mongoDB go to services from mongoDb you can directly strt or stop 
+OR
+from cmd :-
+net stop mongoDB = mongo will stop 
+running as adminstrator 
+
 How to create a Database in mongoDB?
 ~ show dbs 
 ~ use name_db
