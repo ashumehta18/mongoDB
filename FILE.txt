@@ -1,0 +1,9 @@
+mongoDB :- {lec 1}
+@database  @collections   @documents{saved in json format}
+schema is nothing in mongoDB its the one more field only added or deleted for values update 
+# less relation and data is stored together 
+
+bson = binary JSON {binary structure encodes type and and length info, which allows it to be traversed much more quickly compared to JSON}
+
+
+{lec 2}
