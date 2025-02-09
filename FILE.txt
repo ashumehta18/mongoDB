@@ -7,3 +7,7 @@ bson = binary JSON {binary structure encodes type and and length info, which all
 
 
 {lec 2}
+How to create a Database in mongoDB?
+~ show dbs 
+~ use name_db
+~ 
