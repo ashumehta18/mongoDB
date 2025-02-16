@@ -16,4 +16,6 @@ running as adminstrator
 How to create a Database in mongoDB?
 ~ show dbs 
 ~ use name_db
-~ 
+~ insert one
+~ insert many 
+~remove
