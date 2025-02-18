@@ -1,0 +1,5 @@
+4 major operations are performed in database
+C = CREATE
+R = READ
+U = UPDATE
+D = DELETE
