@@ -3,3 +3,4 @@ show dbs == will appear all the available databases
   db = show current database
   db.dropDatabase() = will delete /drop a database
   
+INDEXES:
