@@ -4,3 +4,10 @@ show dbs == will appear all the available databases
   db.dropDatabase() = will delete /drop a database
   
 INDEXES:
+
+
+COLLECTION MANAGMENT:
+show collections == will show all collections
+db.createCollection("name_collection") = create
+db.myCollection.drop() = drop / delete 
+db.myCollection.countDocuments() = count documents in a particular collection
