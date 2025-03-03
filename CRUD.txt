@@ -13,3 +13,27 @@ db.myCollection.insertMany([
     { name: "ASHU", age: 25 },
     { name: "SAHAJ", age: 22 }
 ])
+
+
+
+ # Delete
+Delete One Document:
+db.myCollection.deleteOne({ name: "ashu" })
+
+Delete Many Documents:
+db.myCollection.deleteMany({ age: { $lt: 25 } }) //lt = less than
+//here all the data of people will be deleted whose age will be less than 25 
+
+/*
+# COMMON
+$eq = equal to if
+$ne = not equal to this
+$gt = greater than 
+$gte = greater than or equal to 
+$lt = less than 
+$lte = less than or equal to 
+$in = matches any value in a specific array 
+$nin = none of a particular values matches in a array
+
+# LOGICAL
+*/
