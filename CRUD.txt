@@ -3,3 +3,13 @@ C = CREATE
 R = READ
 U = UPDATE
 D = DELETE
+
+# Create
+Insert One Document:
+db.myCollection.insertOne({ name: "ASHU", age: 30 })
+
+Insert Multiple Documents:
+db.myCollection.insertMany([
+    { name: "ASHU", age: 25 },
+    { name: "SAHAJ", age: 22 }
+])
