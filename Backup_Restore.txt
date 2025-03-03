@@ -1,0 +1,2 @@
+# restore :
+mongorestore --db name_Db /
